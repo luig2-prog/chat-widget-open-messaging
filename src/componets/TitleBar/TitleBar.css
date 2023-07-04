@@ -1,0 +1,52 @@
+.knt-titlebar {
+    width: 100%;
+    display: flex;
+    background-color: #f0f8ff;
+    height: 42px;
+    background: no-repeat padding-box #000 !important;
+    border-radius: 25px 25px 0 0;
+    width: 100% !important;
+    color: #000;
+    justify-content: space-between;
+}
+
+.knt-titlebar-icon {
+    width: 50px;
+}
+
+.knt-titlebar-container-btn {
+    display: flex;
+    gap: 10px;
+    margin-right: 16px;
+}
+
+.knt-titlebar-container-btn button {
+    justify-content: center;
+    background: transparent;
+    padding: 0.5em 0;
+}
+
+.knt-titlebar-container-btn button:hover {
+    border-color: transparent;
+}
+
+.knt-titlebar-container-btn button svg {
+    color: #f0f8ff;
+    width: 20px;
+}
+
+.knt-titlebar-container-btn button svg:hover {
+    transform: scale(1.2);
+}
+
+.cx-common-container .cx-buttons-window-control {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+.cx-svg-icon-tone1 {
+    fill: #fff!important;
+}
